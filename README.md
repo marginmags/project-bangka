@@ -1,5 +1,7 @@
 # Project Bangka
 
+![AGPL v3](https://img.shields.io/badge/license-AGPL--v3-blue) ![Status: Early Development](https://img.shields.io/badge/status-early%20development-orange)
+
 **An open source product builder for designers who are ready to ship.**
 
 Go from a sketch or an idea to a real functioning product — built on whatever framework you choose, with a living design system as the foundation. Not a handoff artifact. Not a code generator. A single place where design and product are the same thing.
@@ -75,3 +77,7 @@ This project is in its formative stage. If you're a designer, a design student, 
 ---
 
 *Project Bangka is being designed from the inside out, by someone living the problem it solves.*
+
+---
+
+<sub>**Bangka** (bah-ngkah) means "boat" in Tagalog — a small vessel for shipping. Not a cargo ship, not a cruise liner. A bangka is personal, nimble, and built to move. That's the energy.</sub>
