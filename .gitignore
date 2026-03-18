@@ -1,0 +1,12 @@
+# Claude Code tooling (preview server, launch config)
+.claude/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Node (for future use)
+node_modules/
+dist/
+.env
+.env.local
