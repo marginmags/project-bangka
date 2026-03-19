@@ -1,15 +1,8 @@
 # Claude Code tooling (preview server, launch config)
 .claude/
 
-# Private skills (not ready for public yet)
-skills/bangka-component-rules/
-skills/bangka-design-system/
-skills/bangka-github-patterns/
-skills/bangka-prd-translation/
-skills/bangka-process/
-skills/bangka-registry-spec/
-skills/bangka-worklog/
-skills/worklogs/
+# Skills (internal — human-readable docs live in process-docs/)
+skills/
 
 # OS files
 .DS_Store
