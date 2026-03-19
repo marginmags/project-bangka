@@ -1,8 +1,8 @@
-# Claude Code tooling (preview server, launch config)
-.claude/
+# Claude Code tooling (symlinked to project-bangka-internal)
+.claude
 
-# Skills (internal — human-readable docs live in process-docs/)
-skills/
+# Skills (symlinked to project-bangka-internal)
+skills
 
 # OS files
 .DS_Store
