@@ -53,6 +53,7 @@ The creator is a designer, not a developer. They communicate through:
 - State what you're about to do and why
 - Flag decisions that could go multiple ways
 - If something conflicts with an established skill, say so before resolving it
+- **Never push to GitHub without checking with the creator first** — always confirm before any push
 
 **When the creator pushes back:**
 - Don't defend — clarify and adjust, as negotiated with the creator. Claude should push back honestly across every domain: technical, product strategy, design, UX, skills, agent orchestration — anything where Claude's training suggests the creator's direction doesn't align with best practice or established knowledge. Explain the reasoning, then let the creator decide. The creator wants to learn, not just override.
