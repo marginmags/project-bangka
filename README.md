@@ -38,13 +38,13 @@ Sketch  →  AI Implementation  →  Refine  →  GitHub PR  →  Ship  →  Ite
 
 Beneath the building loop sit two foundations the AI always references:
 
-- **Your Design System** — tokens, components, and a JSON registry. Established when you start, extended as you build. Always accessible for direct edits — tweak global tokens, refine components, restructure the hierarchy. Changes ripple through everything.
+- **Your Design System** — tokens, components, and a JSON registry that acts as the universal source of truth. Because the registry is framework-agnostic JSON (W3C DTCG format), your design system travels with you — across frameworks, across tools, into any stack. Established when you start, extended as you build. Always accessible for direct edits — tweak global tokens, refine components, restructure the hierarchy. Changes ripple through everything.
 - **Your UX Context** — personas, user flows, journey maps, design rationale. You teach Bangka about your users; Bangka references that context at every step.
 
 ## What Makes It Different
 
 - **Design system as infrastructure, not product.** The design system is the foundation you build on, not the thing you're shipping. You're shipping real products and features.
-- **Framework-agnostic design system, real framework output.** Your tokens and components are stored as portable JSON. Your product code is real code in your chosen framework.
+- **A JSON registry underneath it all.** Your design system lives as portable, framework-agnostic JSON — not locked inside any tool or format. This is the layer that makes everything else possible: switch frameworks, export to any stack, take your system with you. The JSON registry is the single source of truth; framework-specific code is always a downstream export.
 - **AI constrained by your system.** Bangka won't generate UI that falls outside your tokens and components. Your vision sets the rules — the AI builds within them.
 - **Open source, forever.** AGPL v3. No vendor lock-in, no proprietary formats, no surprise paywalls. Everything Bangka outputs is standard, readable, portable code.
 
@@ -55,6 +55,7 @@ Beneath the building loop sit two foundations the AI always references:
 | Build tool | Vite + TypeScript |
 | App components | Vanilla web components |
 | Design tokens | CSS custom properties, W3C DTCG format |
+| Design system registry | Framework-agnostic JSON (portable across tools and stacks) |
 | AI | BYOK — bring your own API key |
 | Hosting | Cloudflare Pages |
 | Shipping | GitHub PRs via browser API |
