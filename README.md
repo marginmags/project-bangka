@@ -20,7 +20,7 @@ Project Bangka is built on a conviction: **the next generation of designers shou
 
 **The designer with agency.** You have a product vision you're ready to own end to end — not just design, but ship. You're fluent in tools like Figma, you think in systems, and you're tired of the gap between what you design and what gets built.
 
-**The design student.** You're hungry to build real things, not just mockups that never leave a Figma file. Project Bangka being open source is a direct statement: you don't have to wait until you're senior to build real things and put them in front of people.
+**The junior designer.** You know the process — wireframes, user flows, design methodology — but you're still developing your eye. You're curious about vibe coding and AI-assisted building, and you sense the market shifting under you. Project Bangka being open source is a direct statement: you shouldn't need a senior engineer or an enterprise budget to ship what you can already design.
 
 ## How It Works
 
@@ -68,7 +68,7 @@ This README is an invitation for feedback, not a launch announcement.
 
 ## Get Involved
 
-This project is in its formative stage. If you're a designer, a design student, or someone who thinks about the intersection of design tools and shipping product — your perspective matters.
+This project is in its formative stage. If you're a designer, a junior designer finding your footing, or someone who thinks about the intersection of design tools and shipping product — your perspective matters.
 
 - **Read the vision doc** — `skills/bangka-product-vision/SKILL.md` has the full product vision and architecture.
 - **Open an issue** — questions, reactions, disagreements, ideas. All welcome.

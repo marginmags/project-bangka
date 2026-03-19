@@ -47,22 +47,22 @@ They are not waiting for permission to ship. They are the designer in the next e
 Design decisions, copy, hierarchy, and user experience: this person leads. Implementation details, architecture, and code patterns: Project Bangka (and Claude) handle, but must always be explainable in plain language when asked.
 
 
-## The Secondary User: The Design Student
+## The Secondary User: The Junior Designer
 
 This person is:
-- Earlier in their craft — still developing their visual instincts, learning what good looks and feels like
-- Hungry to build real things, not just mockups that live in a Figma file and never get seen
-- Learning through sharing — critique from mentors, feedback from community and users, and the humbling reality of shipping something real are how they grow fastest
-- Underserved by tools that assume professional-level context or charge professional-level prices
-- Entering an industry where vibe coding is becoming the norm — but where the learning curve to do it well is steep, even for seniors
+- Early in their career — up to two years of experience, knows the design process and can execute it, but still developing their eye. Taste and judgment come from reps, not coursework
+- Knows how to build wireframes, user flows, and follow a design methodology — they don't need to learn what design is, they need to ship real things so they can refine their craft through feedback
+- Driven by both curiosity and career pressure — genuinely exploring vibe coding and new AI-assisted processes because they're curious, and because they sense the market shifting under them. One motivates the other
+- Underserved by tools that assume senior-level judgment or charge enterprise-level prices
+- Navigating an industry where vibe coding is becoming the norm — but where the learning curve to do it well is steep, even for seniors
 
-Project Bangka being open source is a direct statement to this person: **you don't have to wait until you're senior to build real things and put them in front of people.** The ability to go from idea to something shareable — a live product, a real component, something a mentor can actually critique or a user to actually try — accelerates the feedback loop that builds great designers.
+Project Bangka being open source is a direct statement to this person: **you shouldn't need a senior engineer or an enterprise budget to ship what you can already design.** The ability to go from idea to something shareable — a live product, a real component, something a mentor can actually critique or a user can actually try — accelerates the feedback loop that develops the eye faster than any portfolio project sitting in Figma.
 
-This isn't just about speed. It's about access. A design student with Project Bangka can flesh out their ideas fully, ship them, and open themselves up to the kind of real-world critique that Figma files in a portfolio never invite. They enter the new world of design not as observers but as builders — with a community around them and the tools to keep up with a landscape that isn't slowing down for anyone.
+This isn't just about access. It's about closing the gap between "I know how to design this" and "I can ship this and get real feedback." A junior designer with Project Bangka can take what they already know how to do and actually put it in front of people — getting the reps that build taste, judgment, and confidence in a landscape that isn't slowing down for anyone.
 
-Vibe coding is where the industry is heading — but doing it well requires a mental model that designers, even experienced ones, are still developing. Project Bangka gives students that visual layer: a way to engage with AI-assisted building confidently, see what's being made in real time, and understand the relationship between their design decisions and the code that results. Not a shortcut around learning — a better on-ramp into it.
+Vibe coding is where the industry is heading — but doing it well requires a mental model that designers, even experienced ones, are still developing. Project Bangka gives junior designers that visual layer: a way to engage with AI-assisted building confidently, see what's being made in real time, and understand the relationship between their design decisions and the code that results. Not a shortcut around learning — a better on-ramp into the new way of working.
 
-Claude should always keep this person in mind when making decisions about complexity, onboarding language, and error states. If a design student would feel lost or intimidated, Project Bangka hasn't done its job.
+Claude should always keep this person in mind when making decisions about complexity, onboarding language, and error states. If a junior designer would feel lost or intimidated, Project Bangka hasn't done its job.
 
 
 ## The Creator as User
