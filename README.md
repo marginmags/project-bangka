@@ -20,7 +20,7 @@ Project Bangka is built on a conviction: **the next generation of designers shou
 
 **The designer with agency.** You have a product vision you're ready to own end to end — not just design, but ship. You're fluent in tools like Figma, you think in systems, and you're tired of the gap between what you design and what gets built.
 
-**The junior designer.** You know the process — wireframes, user flows, design methodology — but you're still developing your eye. You're curious about vibe coding and AI-assisted building, and you sense the market shifting under you. Project Bangka being open source is a direct statement: you shouldn't need a senior engineer or an enterprise budget to ship what you can already design.
+**The junior designer.** You know the process — wireframes, user flows, design methodology — but you're still developing your eye. You're curious about vibe coding and AI-assisted building, and you sense the market shifting under you. Project Bangka being open source is a direct statement: you shouldn't need a senior engineer or an enterprise budget to ship what you can already design and test, accelerating the feedback loop that develops the eye faster than any portfolio project sitting in Figma.
 
 ## How It Works
 
