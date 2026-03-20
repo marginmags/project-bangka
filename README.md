@@ -65,13 +65,14 @@ Beneath the building loop sit two foundations the AI always references:
 
 🚧 **Early development.** Project Bangka is being built by its primary persona — a designer navigating the same landscape of AI-assisted building that the tool is designed to make accessible. The vision is sharp. The implementation is underway.
 
+Currently prototyping a Figma plugin as a proof of concept — validating the JSON registry format and the token/component export pipeline before building the standalone app.
+
 This README is an invitation for feedback, not a launch announcement.
 
 ## Get Involved
 
 This project is in its formative stage. If you're a designer, a junior designer finding your footing, or someone who thinks about the intersection of design tools and shipping product — your perspective matters.
 
-- **Read the vision doc** — `skills/bangka-product-vision/SKILL.md` has the full product vision and architecture.
 - **Open an issue** — questions, reactions, disagreements, ideas. All welcome.
 - **Start a discussion** — if something resonates or something feels wrong, say so.
 
