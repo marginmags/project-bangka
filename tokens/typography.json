@@ -1,0 +1,47 @@
+{
+  "$schema": "https://design-tokens.github.io/community-group/format/",
+  "typography": {
+    "fontFamily": {
+      "sans": { "$value": "'Inter', system-ui, -apple-system, sans-serif", "$type": "fontFamily" },
+      "mono": { "$value": "'Geist Mono', 'Fira Code', monospace",          "$type": "fontFamily" }
+    },
+    "fontSize": {
+      "xs":   { "$value": "11px", "$type": "dimension", "$description": "Badges, metadata" },
+      "sm":   { "$value": "12px", "$type": "dimension", "$description": "Captions, detail text" },
+      "base": { "$value": "14px", "$type": "dimension", "$description": "Secondary UI text" },
+      "md":   { "$value": "16px", "$type": "dimension", "$description": "Body text — primary reading size" },
+      "lg":   { "$value": "20px", "$type": "dimension", "$description": "Page headings" },
+      "xl":   { "$value": "24px", "$type": "dimension", "$description": "Major headings, empty states" }
+    },
+    "lineHeight": {
+      "tight":  { "$value": "1.2",  "$type": "number", "$description": "Headings" },
+      "normal": { "$value": "1.5",  "$type": "number", "$description": "Body text" },
+      "loose":  { "$value": "1.75", "$type": "number", "$description": "Long-form content, docs" }
+    },
+    "fontWeight": {
+      "regular":  { "$value": 400, "$type": "number" },
+      "medium":   { "$value": 500, "$type": "number", "$description": "Emphasized labels, active states" },
+      "semibold": { "$value": 600, "$type": "number", "$description": "Headings, strong emphasis" }
+    }
+  },
+  "textStyles": {
+    "$description": "Predefined text style presets. Imported as Figma text styles.",
+    "heading": {
+      "xl": { "fontFamily": "Inter", "fontWeight": "Semi Bold", "fontSize": 24, "lineHeight": 1.2 },
+      "lg": { "fontFamily": "Inter", "fontWeight": "Semi Bold", "fontSize": 20, "lineHeight": 1.2 },
+      "md": { "fontFamily": "Inter", "fontWeight": "Medium",    "fontSize": 16, "lineHeight": 1.2 }
+    },
+    "body": {
+      "base": { "fontFamily": "Inter", "fontWeight": "Regular", "fontSize": 16, "lineHeight": 1.5 },
+      "sm":   { "fontFamily": "Inter", "fontWeight": "Regular", "fontSize": 14, "lineHeight": 1.5 }
+    },
+    "detail": {
+      "sm": { "fontFamily": "Inter",      "fontWeight": "Medium", "fontSize": 14, "lineHeight": 1.2 },
+      "xs": { "fontFamily": "Inter",      "fontWeight": "Medium", "fontSize": 12, "lineHeight": 1.2 }
+    },
+    "mono": {
+      "base": { "fontFamily": "Geist Mono", "fontWeight": "Regular", "fontSize": 16, "lineHeight": 1.5 },
+      "sm":   { "fontFamily": "Geist Mono", "fontWeight": "Regular", "fontSize": 14, "lineHeight": 1.5 }
+    }
+  }
+}

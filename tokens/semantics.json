@@ -1,0 +1,47 @@
+{
+  "$schema": "https://design-tokens.github.io/community-group/format/",
+  "semantic": {
+    "$description": "Use these in all components. Reference primitive colors.",
+    "bg": {
+      "app":     { "$value": "{color.gray.50}",  "$type": "color", "$description": "App background" },
+      "surface": { "$value": "{color.gray.0}",   "$type": "color", "$description": "Cards, panels, modals" },
+      "subtle":  { "$value": "{color.gray.100}", "$type": "color", "$description": "Hover states, subtle sections" },
+      "muted":   { "$value": "{color.gray.200}", "$type": "color", "$description": "Disabled, inactive" }
+    },
+    "text": {
+      "primary":   { "$value": "{color.gray.900}", "$type": "color", "$description": "Main content" },
+      "secondary": { "$value": "{color.gray.500}", "$type": "color", "$description": "Supporting text, labels" },
+      "tertiary":  { "$value": "{color.gray.400}", "$type": "color", "$description": "Placeholder, disabled" },
+      "inverse":   { "$value": "{color.gray.0}",   "$type": "color", "$description": "Text on dark backgrounds" }
+    },
+    "border": {
+      "subtle":  { "$value": "{color.gray.100}", "$type": "color", "$description": "Barely-there dividers" },
+      "default": { "$value": "{color.gray.200}", "$type": "color", "$description": "Standard borders" },
+      "strong":  { "$value": "{color.gray.300}", "$type": "color", "$description": "Emphasized borders" }
+    },
+    "control": {
+      "default": { "$value": "{color.gray.500}", "$type": "color", "$description": "Input/select/checkbox resting border — 4.6:1 on white" },
+      "hover":   { "$value": "{color.gray.600}", "$type": "color", "$description": "Form element hover border" },
+      "focus":   { "$value": "{semantic.interactive.focus}", "$type": "color", "$description": "Form element focus — linked to interactive.focus" },
+      "error":   { "$value": "{semantic.state.error}", "$type": "color", "$description": "Form element error border — linked to state.error" }
+    },
+    "interactive": {
+      "default":     { "$value": "{color.teal.700}", "$type": "color", "$description": "Links, active states" },
+      "hover":       { "$value": "{color.teal.800}", "$type": "color" },
+      "subtle":      { "$value": "{color.teal.50}",  "$type": "color", "$description": "Hover bg on interactive" },
+      "focus":       { "$value": "{color.teal.600}", "$type": "color", "$description": "Focus ring" },
+      "disabled":    { "$value": "{color.gray.400}", "$type": "color", "$description": "Disabled text, icons, borders" },
+      "disabled-bg": { "$value": "{color.gray.200}", "$type": "color", "$description": "Disabled button fill" }
+    },
+    "state": {
+      "success":    { "$value": "{color.green.700}", "$type": "color" },
+      "success-bg": { "$value": "{color.green.100}", "$type": "color" },
+      "warning":    { "$value": "{color.amber.700}", "$type": "color" },
+      "warning-bg": { "$value": "{color.amber.100}", "$type": "color" },
+      "error":      { "$value": "{color.red.700}",   "$type": "color" },
+      "error-bg":   { "$value": "{color.red.100}",   "$type": "color" },
+      "info":       { "$value": "{color.blue.700}",  "$type": "color" },
+      "info-bg":    { "$value": "{color.blue.100}",  "$type": "color" }
+    }
+  }
+}
