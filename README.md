@@ -65,7 +65,7 @@ Beneath the building loop sit two foundations the AI always references:
 
 🚧 **Early development.** Project Bangka is being built by its primary persona — a designer navigating the same landscape of AI-assisted building that the tool is designed to make accessible. The vision is sharp. The implementation is underway.
 
-Currently prototyping a Figma plugin as a proof of concept — validating the JSON registry format and the token/component export pipeline before building the standalone app.
+**v0 foundation complete.** Design tokens are defined in W3C DTCG format and imported into Figma as variables. The Figma plugin API has been validated — variable bindings, variant properties, auto-layout, text styles, and token references all extract cleanly. Now scoping the v1 plugin: token export, component registration, web component output, and GitHub integration.
 
 This README is an invitation for feedback, not a launch announcement.
 
