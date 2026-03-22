@@ -23,7 +23,7 @@ class BkButton extends LitElement {
     :host([type="primary"][size="medium"]) button {
       border-radius: var(--radius-md);
       padding-block: var(--sp-2);
-      padding-inline: var(--sp-3);
+      padding-inline: var(--sp-4);
       gap: var(--sp-1);
       background: var(--interactive-default);
       color: var(--text-inverse);
@@ -48,7 +48,7 @@ class BkButton extends LitElement {
     :host([type="primary"][size="small"]) button {
       border-radius: var(--radius-md);
       padding-block: var(--sp-1);
-      padding-inline: var(--sp-2);
+      padding-inline: var(--sp-3);
       gap: var(--sp-1);
       background: var(--interactive-default);
       color: var(--text-inverse);
