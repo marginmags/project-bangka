@@ -42,7 +42,7 @@
     "primary / default / medium": {
       "radius": "borderRadius/md",
       "padding y": "spacing/2",
-      "padding x": "spacing/3",
+      "padding x": "spacing/4",
       "gap": "spacing/1",
       "fill": "semantic/interactive/default",
       "width": "iconSize/xl",
@@ -56,7 +56,7 @@
     "primary / hover / medium": {
       "radius": "borderRadius/md",
       "padding y": "spacing/2",
-      "padding x": "spacing/3",
+      "padding x": "spacing/4",
       "gap": "spacing/1",
       "fill": "semantic/interactive/hover",
       "width": "iconSize/xl",
@@ -70,7 +70,7 @@
     "primary / focus / medium": {
       "radius": "borderRadius/md",
       "padding y": "spacing/2",
-      "padding x": "spacing/3",
+      "padding x": "spacing/4",
       "gap": "spacing/1",
       "fill": "semantic/interactive/focus",
       "width": "iconSize/xl",
@@ -84,7 +84,7 @@
     "primary / disabled / medium": {
       "radius": "borderRadius/md",
       "padding y": "spacing/2",
-      "padding x": "spacing/3",
+      "padding x": "spacing/4",
       "gap": "spacing/1",
       "fill": "semantic/interactive/disabled-bg",
       "width": "iconSize/xl",
@@ -98,7 +98,7 @@
     "primary / default / small": {
       "radius": "borderRadius/md",
       "padding y": "spacing/1",
-      "padding x": "spacing/2",
+      "padding x": "spacing/3",
       "gap": "spacing/1",
       "fill": "semantic/interactive/default",
       "width": "iconSize/md",
@@ -112,7 +112,7 @@
     "primary / hover / small": {
       "radius": "borderRadius/md",
       "padding y": "spacing/1",
-      "padding x": "spacing/2",
+      "padding x": "spacing/3",
       "gap": "spacing/1",
       "fill": "semantic/interactive/hover",
       "width": "iconSize/md",
@@ -126,7 +126,7 @@
     "primary / focus / small": {
       "radius": "borderRadius/md",
       "padding y": "spacing/1",
-      "padding x": "spacing/2",
+      "padding x": "spacing/3",
       "gap": "spacing/1",
       "fill": "semantic/interactive/focus",
       "width": "iconSize/md",
@@ -140,7 +140,7 @@
     "primary / disabled / small": {
       "radius": "borderRadius/md",
       "padding y": "spacing/1",
-      "padding x": "spacing/2",
+      "padding x": "spacing/3",
       "gap": "spacing/1",
       "fill": "semantic/interactive/disabled-bg",
       "width": "iconSize/md",
