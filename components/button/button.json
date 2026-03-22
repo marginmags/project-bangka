@@ -48,7 +48,10 @@
       "width": "iconSize/xl",
       "height": "iconSize/xl",
       "icon color": "semantic/text/inverse",
-      "text color": "semantic/text/inverse"
+      "text color": "semantic/text/inverse",
+      "font size": "typography/fontSize/md",
+      "line height": "typography/lineHeight/normal",
+      "font weight": "typography/fontWeight/regular"
     },
     "primary / hover / medium": {
       "radius": "borderRadius/md",
@@ -59,7 +62,10 @@
       "width": "iconSize/xl",
       "height": "iconSize/xl",
       "icon color": "semantic/text/inverse",
-      "text color": "semantic/text/inverse"
+      "text color": "semantic/text/inverse",
+      "font size": "typography/fontSize/md",
+      "line height": "typography/lineHeight/normal",
+      "font weight": "typography/fontWeight/regular"
     },
     "primary / focus / medium": {
       "radius": "borderRadius/md",
@@ -70,7 +76,10 @@
       "width": "iconSize/xl",
       "height": "iconSize/xl",
       "icon color": "semantic/text/inverse",
-      "text color": "semantic/text/inverse"
+      "text color": "semantic/text/inverse",
+      "font size": "typography/fontSize/md",
+      "line height": "typography/lineHeight/normal",
+      "font weight": "typography/fontWeight/regular"
     },
     "primary / disabled / medium": {
       "radius": "borderRadius/md",
@@ -81,7 +90,10 @@
       "width": "iconSize/xl",
       "height": "iconSize/xl",
       "icon color": "semantic/interactive/disabled",
-      "text color": "semantic/interactive/disabled"
+      "text color": "semantic/interactive/disabled",
+      "font size": "typography/fontSize/md",
+      "line height": "typography/lineHeight/normal",
+      "font weight": "typography/fontWeight/regular"
     },
     "primary / default / small": {
       "radius": "borderRadius/md",
@@ -92,7 +104,10 @@
       "width": "iconSize/md",
       "height": "iconSize/md",
       "icon color": "semantic/text/inverse",
-      "text color": "semantic/text/inverse"
+      "text color": "semantic/text/inverse",
+      "font size": "typography/fontSize/base",
+      "line height": "typography/lineHeight/normal",
+      "font weight": "typography/fontWeight/regular"
     },
     "primary / hover / small": {
       "radius": "borderRadius/md",
@@ -103,7 +118,10 @@
       "width": "iconSize/md",
       "height": "iconSize/md",
       "icon color": "semantic/text/inverse",
-      "text color": "semantic/text/inverse"
+      "text color": "semantic/text/inverse",
+      "font size": "typography/fontSize/base",
+      "line height": "typography/lineHeight/normal",
+      "font weight": "typography/fontWeight/regular"
     },
     "primary / focus / small": {
       "radius": "borderRadius/md",
@@ -114,7 +132,10 @@
       "width": "iconSize/md",
       "height": "iconSize/md",
       "icon color": "semantic/text/inverse",
-      "text color": "semantic/text/inverse"
+      "text color": "semantic/text/inverse",
+      "font size": "typography/fontSize/base",
+      "line height": "typography/lineHeight/normal",
+      "font weight": "typography/fontWeight/regular"
     },
     "primary / disabled / small": {
       "radius": "borderRadius/md",
@@ -125,7 +146,10 @@
       "width": "iconSize/md",
       "height": "iconSize/md",
       "icon color": "semantic/interactive/disabled",
-      "text color": "semantic/interactive/disabled"
+      "text color": "semantic/interactive/disabled",
+      "font size": "typography/fontSize/base",
+      "line height": "typography/lineHeight/normal",
+      "font weight": "typography/fontWeight/regular"
     }
   },
   "states": [
