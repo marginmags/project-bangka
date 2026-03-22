@@ -27,6 +27,9 @@ class BkButton extends LitElement {
       gap: var(--sp-1);
       background: var(--interactive-default);
       color: var(--text-inverse);
+      font-size: var(--typography-fontSize-md);
+      line-height: var(--typography-lineHeight-normal);
+      font-weight: var(--typography-fontWeight-regular);
     }
     :host([type="primary"][size="medium"]:hover) button {
       background: var(--interactive-hover);
@@ -49,6 +52,9 @@ class BkButton extends LitElement {
       gap: var(--sp-1);
       background: var(--interactive-default);
       color: var(--text-inverse);
+      font-size: var(--typography-fontSize-base);
+      line-height: var(--typography-lineHeight-normal);
+      font-weight: var(--typography-fontWeight-regular);
     }
     :host([type="primary"][size="small"]:hover) button {
       background: var(--interactive-hover);
