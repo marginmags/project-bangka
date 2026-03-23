@@ -19,7 +19,9 @@ No action needed. These are always there.
 
 ### Starting a session
 
-> "Read the second brain skill and the worklog to catch up"
+```
+Read the second brain skill and the worklog to catch up
+```
 
 That one sentence gives Claude:
 - **How** to work with you (pair partner mode, pushback expectations, preview-first writing)
@@ -29,15 +31,14 @@ That one sentence gives Claude:
 
 Load only what's relevant:
 
-| Focus | What to say |
+| Focus | Prompt |
 |---|---|
-| Tech decisions | "Read the architecture skill" |
-| Design / UX flows | "Read the personas and design system skills" |
-| Scoping / strategy | "Read the product and vision skills" |
-| Writing or refining skills | "Read the second brain and skill-writing skills" |
-| Reviewing progress | "Read the worklog" |
-
-Combine as needed: *"Read the second brain, architecture, and worklog — we're building today"*
+| Tech decisions | `Read the architecture skill` |
+| Design / UX flows | `Read the personas and design system skills` |
+| Scoping / strategy | `Read the product and vision skills` |
+| Writing or refining skills | `Read the second brain and skill-writing skills` |
+| Reviewing progress | `Read the worklog` |
+| Building | `Read the second brain, architecture, and worklog — we're building today` |
 
 ---
 
@@ -57,7 +58,7 @@ The creator communicates through outcomes, feelings, sketches, and pushback. Cla
 
 ### Pushback goes both ways
 
-Claude pushes back honestly across every domain — technical, product strategy, design, UX, skills, agent orchestration — when the creator's direction doesn't align with best practice or established knowledge. The creator wants to learn, not just override. When the creator pushes back, that's data too. Neither is conflict.
+Claude pushes back honestly across every domain — technical, product strategy, design, UX, skills, process — when the creator's direction doesn't align with best practice or established knowledge. The creator wants to learn, not just override. When the creator pushes back, that's data too. Neither is conflict.
 
 ### What the creator values most
 
@@ -105,23 +106,36 @@ Draft → scan for contradictions → trim redundancy → check line count → r
 
 ---
 
-## The Agent System
+## Current Working Model
 
-The creator has designed a 6-agent system. The Orchestrator (default) routes to specialists:
+Today, the project operates as a single-agent pair session — one Claude instance (the Orchestrator) works directly with the creator across all disciplines. A multi-agent system with specialist routing has been designed and is documented in the scoping docs for when the project outgrows pair sessions.
 
-| Agent | Domain | What it does |
-|---|---|---|
-| Orchestrator | Everything | Thinking partner, routing, session context |
-| Historian | Memory | Reads/writes worklogs, tracks decisions, restores context |
-| UX | Design | Interprets design intent, validates against personas, handles flows |
-| Dev | Code | Builds what UX defines — architecture, code, registry, GitHub |
-| Product | Strategy | Defines what to build, why it matters, what success looks like |
-| Process | Operations | Planning, retros, keeping work organized and moving |
+---
 
-### Routing
+## Skills Catalog
 
-- "What should the user experience?" → UX or Product
-- "How should this be built?" → Dev
-- "What happened last time?" → Historian
-- "What should we work on next?" → Process
-- "What are we building and why?" → Orchestrator
+### Core — loaded every session
+| Skill | What it does |
+|---|---|
+| `bangka-second-brain` | How Claude works with the creator — session startup, communication, decision-making, pushback |
+| `bangka-product-vision` | The north star — what Bangka is, what it's not, architectural principles |
+| `bangka-worklog` | How to write session logs, milestone summaries, and restore context between sessions |
+
+### Design System
+| Skill | What it does |
+|---|---|
+| `bangka-design-system` | Aesthetic rules, component conventions, visual principles |
+| `bangka-tokens` | Every token value — colors, spacing, typography, radii, shadows |
+| `bangka-registry-spec` | JSON registry schema, file format, validation rules |
+
+### Product & Users
+| Skill | What it does |
+|---|---|
+| `bangka-personas` | The three user profiles that inform every design and product decision |
+| `bangka-architecture` | Tech stack, framework agnosticism, registry role |
+
+### Process
+| Skill | What it does |
+|---|---|
+| `bangka-skill-writing` | How to write, structure, refine, and audit skills |
+| `bangka-preview` | How to use the preview editor — tabs, file loading, collaborative writing |

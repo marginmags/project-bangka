@@ -4,27 +4,12 @@
   "props": {
     "type": {
       "type": "variant",
-      "values": [
-        "primary"
-      ],
+      "values": ["primary"],
       "default": "primary"
-    },
-    "state": {
-      "type": "variant",
-      "values": [
-        "default",
-        "hover",
-        "focus",
-        "disabled"
-      ],
-      "default": "default"
     },
     "size": {
       "type": "variant",
-      "values": [
-        "medium",
-        "small"
-      ],
+      "values": ["medium", "small"],
       "default": "medium"
     }
   },
@@ -39,7 +24,7 @@
     }
   },
   "tokens": {
-    "primary / default / medium": {
+    "base": {
       "radius": "borderRadius/md",
       "padding y": "spacing/2",
       "padding x": "spacing/4",
@@ -53,109 +38,28 @@
       "line height": "typography/lineHeight/normal",
       "font weight": "typography/fontWeight/regular"
     },
-    "primary / hover / medium": {
-      "radius": "borderRadius/md",
-      "padding y": "spacing/2",
-      "padding x": "spacing/4",
-      "gap": "spacing/1",
-      "fill": "semantic/interactive/hover",
-      "width": "iconSize/xl",
-      "height": "iconSize/xl",
-      "icon color": "semantic/text/inverse",
-      "text color": "semantic/text/inverse",
-      "font size": "typography/fontSize/md",
-      "line height": "typography/lineHeight/normal",
-      "font weight": "typography/fontWeight/regular"
+    "sizes": {
+      "small": {
+        "padding y": "spacing/1",
+        "padding x": "spacing/3",
+        "width": "iconSize/md",
+        "height": "iconSize/md",
+        "font size": "typography/fontSize/base"
+      }
     },
-    "primary / focus / medium": {
-      "radius": "borderRadius/md",
-      "padding y": "spacing/2",
-      "padding x": "spacing/4",
-      "gap": "spacing/1",
-      "fill": "semantic/interactive/focus",
-      "width": "iconSize/xl",
-      "height": "iconSize/xl",
-      "icon color": "semantic/text/inverse",
-      "text color": "semantic/text/inverse",
-      "font size": "typography/fontSize/md",
-      "line height": "typography/lineHeight/normal",
-      "font weight": "typography/fontWeight/regular"
-    },
-    "primary / disabled / medium": {
-      "radius": "borderRadius/md",
-      "padding y": "spacing/2",
-      "padding x": "spacing/4",
-      "gap": "spacing/1",
-      "fill": "semantic/interactive/disabled-bg",
-      "width": "iconSize/xl",
-      "height": "iconSize/xl",
-      "icon color": "semantic/interactive/disabled",
-      "text color": "semantic/interactive/disabled",
-      "font size": "typography/fontSize/md",
-      "line height": "typography/lineHeight/normal",
-      "font weight": "typography/fontWeight/regular"
-    },
-    "primary / default / small": {
-      "radius": "borderRadius/md",
-      "padding y": "spacing/1",
-      "padding x": "spacing/3",
-      "gap": "spacing/1",
-      "fill": "semantic/interactive/default",
-      "width": "iconSize/md",
-      "height": "iconSize/md",
-      "icon color": "semantic/text/inverse",
-      "text color": "semantic/text/inverse",
-      "font size": "typography/fontSize/base",
-      "line height": "typography/lineHeight/normal",
-      "font weight": "typography/fontWeight/regular"
-    },
-    "primary / hover / small": {
-      "radius": "borderRadius/md",
-      "padding y": "spacing/1",
-      "padding x": "spacing/3",
-      "gap": "spacing/1",
-      "fill": "semantic/interactive/hover",
-      "width": "iconSize/md",
-      "height": "iconSize/md",
-      "icon color": "semantic/text/inverse",
-      "text color": "semantic/text/inverse",
-      "font size": "typography/fontSize/base",
-      "line height": "typography/lineHeight/normal",
-      "font weight": "typography/fontWeight/regular"
-    },
-    "primary / focus / small": {
-      "radius": "borderRadius/md",
-      "padding y": "spacing/1",
-      "padding x": "spacing/3",
-      "gap": "spacing/1",
-      "fill": "semantic/interactive/focus",
-      "width": "iconSize/md",
-      "height": "iconSize/md",
-      "icon color": "semantic/text/inverse",
-      "text color": "semantic/text/inverse",
-      "font size": "typography/fontSize/base",
-      "line height": "typography/lineHeight/normal",
-      "font weight": "typography/fontWeight/regular"
-    },
-    "primary / disabled / small": {
-      "radius": "borderRadius/md",
-      "padding y": "spacing/1",
-      "padding x": "spacing/3",
-      "gap": "spacing/1",
-      "fill": "semantic/interactive/disabled-bg",
-      "width": "iconSize/md",
-      "height": "iconSize/md",
-      "icon color": "semantic/interactive/disabled",
-      "text color": "semantic/interactive/disabled",
-      "font size": "typography/fontSize/base",
-      "line height": "typography/lineHeight/normal",
-      "font weight": "typography/fontWeight/regular"
+    "states": {
+      "hover": {
+        "fill": "semantic/interactive/hover"
+      },
+      "focus": {
+        "fill": "semantic/interactive/focus"
+      },
+      "disabled": {
+        "fill": "semantic/interactive/disabled-bg",
+        "icon color": "semantic/interactive/disabled",
+        "text color": "semantic/interactive/disabled"
+      }
     }
   },
-  "states": [
-    "default",
-    "hover",
-    "focus",
-    "disabled"
-  ]
+  "states": ["default", "hover", "focus", "disabled"]
 }
