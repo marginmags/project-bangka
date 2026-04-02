@@ -4,12 +4,17 @@
   "props": {
     "type": {
       "type": "variant",
-      "values": ["primary"],
+      "values": [
+        "primary"
+      ],
       "default": "primary"
     },
     "size": {
       "type": "variant",
-      "values": ["medium", "small"],
+      "values": [
+        "medium",
+        "small"
+      ],
       "default": "medium"
     }
   },
@@ -61,5 +66,10 @@
       }
     }
   },
-  "states": ["default", "hover", "focus", "disabled"]
+  "states": [
+    "default",
+    "hover",
+    "focus",
+    "disabled"
+  ]
 }
